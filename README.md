@@ -62,9 +62,9 @@ Weekly totals are then transposed (`=TRANSPOSE(B16:N16)`) into a vertical list t
 
 ### Step 4: Pivot Tables & Dashboard
 4 Pivot Tables summarize Cash In vs Cash Out, Beginning vs Ending balance, Net Cash Flow by week and Outflow by expense category. They feed a dashboard with **Week** and **Expense/Week** slicers:
-- 📈 **Net Cash Flow** (line chart)
-- 📊 **Beginning and Ending Balance by Week** (clustered column)
-- 📊 **Total Outflow by Category** (clustered column)
+- **Net Cash Flow** (line chart)
+- **Beginning and Ending Balance by Week** (clustered column)
+- **Total Outflow by Category** (clustered column)
 
 ## Key Findings
 | Metric | Value |
@@ -80,8 +80,6 @@ Weekly totals are then transposed (`=TRANSPOSE(B16:N16)`) into a vertical list t
 1. **Lowest balance:** Cash falls steadily from Week 1 to **Week 7 (9,500)**. Early-week collections are thin because receivables take 1–2 months to come in, while payroll and fuel go out every week. Week 7 also bunches together the equipment lease, materials and the annual vehicle registration.
 2. **No shortfall, but a razor-thin cushion:** the balance never turns negative, yet 9,500 is **less than one week of payroll (12,000)**. A few late customer payments would push the company into overdraft.
 3. **Burning cash:** outflows exceed inflows by 66,180. **Payroll alone is 156,000 (~56% of total outflows).**
-
-> 📸 **[Image: Total Outflow by Category chart]** – to illustrate payroll's share
 
 ## Recommendations to the CFO
 - **Speed up collections:** offer early-payment discounts, follow up on invoices before they are due, and monitor customers' financial health.
